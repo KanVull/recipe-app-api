@@ -54,7 +54,9 @@ class TagViewSet(mixins.DestroyModelMixin,
         return self.queryset.filter(user=self.request.user).order_by('-name')
 
 
-class IngredientVeiwSet(mixins.ListModelMixin,
+class IngredientVeiwSet(mixins.DestroyModelMixin,
+                        mixins.UpdateModelMixin,
+                        mixins.ListModelMixin,
                         viewsets.GenericViewSet):
     """Manage ingredient in the dstabase."""
     serializer_class = serializers.IngredientSerializer

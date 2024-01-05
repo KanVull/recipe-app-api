@@ -20,13 +20,14 @@ I covered all code with tests to eliminate 99.9% of bugs, using the TDD approach
 - Python 3.9
 - Django 4.1
 - DjangoRestFramework 3.14
+- Docker
 - PostgreSQL 13
 - Flake8
 - Swagger 
+- Github Actions
 
 ## Deploy
 
-- Docker
 - Uwsgi 2.0.23
 - AWS Server
 [The project DOCS link](ec2-16-171-11-29.eu-north-1.compute.amazonaws.com/api/docs)

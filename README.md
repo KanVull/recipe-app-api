@@ -11,7 +11,7 @@ User can:
 - Add image representation to the recipe;
 - Filter recipes by Ingredients or/and Tags;
 - GET, PUT, PATCH and DELETE Recipe, Tag and Ingredient.
-([Click this link to get documentation of API](ec2-16-171-11-29.eu-north-1.compute.amazonaws.com/api/docs))   
+([Click this link to get documentation of API](ec2-16-171-6-193.eu-north-1.compute.amazonaws.com/api/docs))   
 
 I covered all code with tests to eliminate 99.9% of bugs, using the TDD approach (tests first, then the code that will pass these tests)
 
@@ -30,4 +30,4 @@ I covered all code with tests to eliminate 99.9% of bugs, using the TDD approach
 
 - Uwsgi 2.0.23
 - AWS Server
-[The project DOCS link](ec2-16-171-11-29.eu-north-1.compute.amazonaws.com/api/docs)
+[The project DOCS link](ec2-16-171-6-193.eu-north-1.compute.amazonaws.com/api/docs)
